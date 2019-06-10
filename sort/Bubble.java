@@ -82,7 +82,7 @@ public class Bubble {
         int tmp = 0;
         int count = 0;
         boolean flag = false;
-        int innerIndex = arr.length - 1;
+        int innerIndex = arr.length;
         int tmpIndex = 0;
         for (int i = 0; i < arr.length - 1; i++) {
             if (i > 0)
